@@ -1,0 +1,117 @@
+body {
+  color: #bc6c25;
+  background-color: #fefae0;
+  background-image: url("images/Nature-forest-trees-fog.jpg");
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #606c38;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
+h2 {
+  color: #606c38;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+a {
+  color: #606c38;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #283618;
+}
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fffef6;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px #bc6b2531;
+}
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.link-box {
+  background: #606c38;
+  padding: 5px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.link-box:hover {
+  background: #283618;
+}
+
+#cool-link {
+  color: #fffef6;
+}
+
+.subcards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px
+}
+
+.fa-brands {
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .subcards {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
